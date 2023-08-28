@@ -13,7 +13,8 @@ export const Statistics = ({ items, title }) => {
                 ))}
             </StatList>
         </Statwrapper>
-
     );
 };
+
+
 

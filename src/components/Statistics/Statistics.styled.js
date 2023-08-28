@@ -5,13 +5,14 @@ export const Statwrapper = styled.div`
   background: whitesmoke;
   outline: 2px solid gray;
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 24px;
+  padding: 8px;
 `;
 
 export const Title = styled.h2`
   text-transform: uppercase;
   font-size: 20px;
-  margin: 15px auto;
+  font-weight: 500;
   text-align: center;
 `;
 
