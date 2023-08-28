@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const ProfileCard = styled.div`
   display: flex;
   flex-direction: column;
-  width: 390px;
-  border: 1px solid #303030;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
 `;
 
 export const UserName = styled.h3`
@@ -25,6 +21,7 @@ export const Text = styled.p`
   align-items: center;
   font-weight: 400;
   font-size: 20px;
+  color: gray;
   margin: 4px 0 4px 0;
 `;
 
@@ -32,6 +29,6 @@ export const Avatar = styled.img`
   margin: 20px auto;
   width: 250px;
   border-radius: 50%;
-  border: 1px solid #303030;
+  border: 1px solid gray;
   padding: 8px;
 `;

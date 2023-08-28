@@ -1,10 +1,11 @@
 import { ProfCard } from "./ProfCard";
 import { ProfStats } from "./ProfStats";
 import PropTypes from 'prop-types';
+import { ProfWrapper } from "./Profile.styled";
 
 export const Profile = ({ user }) => {
     return (
-    <section>
+    <ProfWrapper>
         <ProfCard 
             username={user.username}
             tag={user.tag}
@@ -14,7 +15,7 @@ export const Profile = ({ user }) => {
         <ProfStats
         stats={user.stats} 
         /> 
-    </section>
+    </ProfWrapper>
     );
 };
 
