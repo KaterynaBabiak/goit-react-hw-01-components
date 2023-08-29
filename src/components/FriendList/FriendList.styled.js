@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Friendwrapper = styled.div`
-
+ margin: 24px;
 `;
 
 export const FriendsList = styled.ul`
@@ -21,7 +21,7 @@ export const FriendItem = styled.li`
   padding: 4px 24px;
   margin: 0 auto;
   background-color: whitesmoke;
-  outline: 2px solid gray;
+  outline: 1px solid #e7e9fc;
   border-radius: 6px;
   transition: 200ms ease;
   &:hover {

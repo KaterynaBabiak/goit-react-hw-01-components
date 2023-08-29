@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Statwrapper = styled.div`
   width: 390px;
   background: whitesmoke;
-  outline: 2px solid gray;
+  outline: 1px solid #e7e9fc;
   border-radius: 6px;
   margin: 24px;
   padding: 8px;

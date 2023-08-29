@@ -4,7 +4,7 @@ export const Stats = styled.ul`
   display: flex;
   justify-content: center;
   width: 342px;
-  outline: 2px solid gray;
+  outline: 1px solid gray;
   border-radius: 6px;
   margin-top: 16px;
 `;
